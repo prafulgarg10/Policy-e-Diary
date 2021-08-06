@@ -1,0 +1,2 @@
+This directory contains server side code for building API. 
+ExpressJS is used to get data from MongoDB Atlas.
