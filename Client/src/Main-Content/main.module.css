@@ -1,0 +1,261 @@
+.row {
+  margin-top: 20px;
+  width: 100%;
+  float: left;
+}
+
+.formcard,
+.updatedata {
+  float: left;
+}
+.formcard {
+  margin-left: 3.5%;
+  width: 45%;
+  height: 350px;
+}
+.updatedata {
+  margin-left: 2.5%;
+  width: 45%;
+  height: 250px;
+}
+.updatedata .message {
+  color: green;
+  width: 100%;
+  height: 90px;
+}
+
+.row1 {
+  margin-top: 20px;
+  margin-left: 5%;
+  width: 90%;
+  float: left;
+}
+.row2 {
+  margin-top: -20px;
+  margin-bottom: -30px;
+  margin-right: 1%;
+  width: 50%;
+  float: right;
+  color: green;
+}
+.row2 h3 {
+  float: right;
+}
+.details {
+  width: 100%;
+}
+table {
+  width: 100%;
+  height: 220px;
+  font-size: 20px;
+  background-color: #f6c409;
+  border: 3px solid #1d4e9e;
+}
+td {
+  border: 2px solid #1d4e9e;
+}
+tr > td {
+  font-weight: 900;
+  color: rgb(6, 66, 124);
+}
+table tr:nth-child(1) > td {
+  font-weight: 900;
+  font-size: 25px;
+  color: rgb(6, 66, 124);
+}
+.viewdata,
+.emptyDiv {
+  float: left;
+}
+.viewdata {
+  margin-left: 3.5%;
+  width: 45%;
+  height: 230px;
+}
+.viewdata .deleteMessage {
+  float: left;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: green;
+}
+.deleteMessage h4 {
+  color: red;
+}
+.emptyDiv {
+  margin-left: 2.5%;
+  width: 45%;
+  height: 280px;
+}
+
+input[type="submit"] {
+  border: 1px solid #1d4e9e;
+  background-color: rgb(253, 240, 191);
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+input[type="submit"]:hover {
+  background-color: green;
+  color: white;
+}
+
+.getdata input[type="submit"] {
+  border: none;
+  outline: none;
+  text-decoration: underline;
+}
+@media (min-width: 840px) and (max-width: 1280px) {
+  .container .heading {
+    margin-left: 30%;
+  }
+  .getdata {
+    margin-left: 30%;
+  }
+  .row1 {
+    margin-top: 20px;
+    margin-left: 0%;
+    width: 100%;
+    float: left;
+  }
+  .details table {
+    font-size: 15px;
+    height: auto;
+  }
+  .details table tr:nth-child(1) > td {
+    font-size: 20px;
+  }
+}
+select {
+  font-size: 16px;
+}
+@media (min-width: 742px) and (max-width: 840px) {
+  .container .heading {
+    margin-left: 25%;
+  }
+  .getdata {
+    margin-left: 20%;
+    width: 50%;
+  }
+  .details {
+    overflow-x: auto;
+  }
+  .row1 {
+    margin-top: 20px;
+    margin-left: 0%;
+    width: 100%;
+    float: left;
+  }
+  .details table {
+    font-size: 15px;
+    height: auto;
+  }
+  .details table tr:nth-child(1) > td {
+    font-size: 20px;
+  }
+}
+@media (min-width: 640px) and (max-width: 742px) {
+  .container .heading {
+    margin-left: 20%;
+  }
+  .getdata {
+    margin-left: 15%;
+    width: 60%;
+  }
+  .details {
+    overflow-x: auto;
+  }
+  .row1 {
+    margin-top: 20px;
+    margin-left: 0%;
+    width: 100%;
+    float: left;
+  }
+  .details table {
+    font-size: 15px;
+  }
+  .details table tr:nth-child(1) > td {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 640px) {
+  .formcard {
+    margin-left: 5%;
+    width: 90%;
+    height: 350px;
+  }
+  .updatedata {
+    margin-left: 5%;
+    width: 90%;
+    height: 350px;
+  }
+  .viewdata {
+    margin-left: 5%;
+    width: 90%;
+    height: 250px;
+    margin-top: -65px;
+  }
+  .details {
+    overflow-x: auto;
+  }
+  .row1 {
+    margin-top: 20px;
+    margin-left: 0%;
+    width: 100%;
+    float: left;
+  }
+  .details table {
+    font-size: 15px;
+  }
+  .details table tr:nth-child(1) > td {
+    font-size: 20px;
+  }
+}
+@media (min-width: 500px) and (max-width: 640px) {
+  .getdata {
+    margin-left: 20%;
+    width: 80%;
+    margin-top: -10px;
+    margin-bottom: 40px;
+  }
+  .container .navtool {
+    margin-top: 10px;
+    width: 120px;
+  }
+  .container .heading {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 444px) and (max-width: 500px) {
+  .getdata {
+    margin-left: 10%;
+    width: 90%;
+    margin-top: -10px;
+    margin-bottom: 40px;
+  }
+  .container .navtool {
+    margin-top: 10px;
+    width: 120px;
+  }
+  .container .heading {
+    margin-left: 5%;
+  }
+}
+@media (min-width: 0px) and (max-width: 444px) {
+  .getdata {
+    width: 95%;
+    margin-left: 5%;
+    margin-top: -10px;
+    margin-bottom: 40px;
+  }
+  .container .navtool {
+    margin-top: 10px;
+    width: 120px;
+  }
+  .container .heading {
+    margin-top: 5px;
+    margin-left: 0%;
+    font-size: 15px;
+  }
+}

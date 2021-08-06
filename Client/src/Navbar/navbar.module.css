@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(253, 240, 191);
+  font-size: 18px;
+  font-family: "Cardo", serif;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-color: #1d4e9e;
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.logo img {
+  margin: 10px;
+  height: 60px;
+  width: 60px;
+}
+.container .logo,
+.heading {
+  float: left;
+}
+.container .heading {
+  margin-left: 35%;
+  margin-top: -10px;
+}
+.container .heading a {
+  text-decoration: none;
+  color: white;
+}
+.container .heading a:hover {
+  color: cyan;
+}
+.container .navtool {
+  float: right;
+  margin-top: 20px;
+  width: 250px;
+}
+.navtool .home {
+  float: left;
+  padding-right: 10px;
+}
+.home a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.home a:hover {
+  color: cyan;
+}
+.container .heading {
+  color: white;
+}
+.container .content {
+  float: right;
+}

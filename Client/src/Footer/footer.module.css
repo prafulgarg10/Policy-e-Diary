@@ -1,0 +1,12 @@
+.footer {
+  clear: both;
+  height: 60px;
+  background-color: #1d4e9e;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer .data {
+  text-align: center;
+  color: white;
+  padding-top: 2px;
+}
